@@ -16,7 +16,7 @@ bot = Bot(token=token, parse_mode=types.ParseMode.HTML)
 dp = Dispatcher(bot)
 
 # Коннект к БД pars_db
-engine = create_engine('postgresql+psycopg2://root:q1726354@localhost:5432/pars_db')
+engine = create_engine('postgresql+psycopg2://root')
 
 status = 'False'
 
